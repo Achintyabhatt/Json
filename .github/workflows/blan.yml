@@ -44,7 +44,7 @@ jobs:
 
 
      # Runs a set of commands using the runners shell
-      - name: Run a one-line script
+      - name: Run a multi-line script
         run:
           python hello.py
           echo Add other actions to build,
